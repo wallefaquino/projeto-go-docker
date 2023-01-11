@@ -5,9 +5,9 @@ on:
 
 jobs:
 
- docker:
-  runs-on: ubuntu-latest
-  steps:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v3
    
     - name: setup Docker Build
